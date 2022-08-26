@@ -1,0 +1,19 @@
+tasks:
+    create_stripe_webhook:
+        group: Stripe
+        description: Creates a Stripe webhook endpoint pointed at a url
+        class_path: cumulusci_stripe.tasks.CreateWebhook
+
+    delete_stripe_webhook:
+        group: Stripe
+        description: Creates a Stripe webhook endpoint pointed at a url
+        class_path: cumulusci_stripe.tasks.DeleteWebhook
+
+services:
+    stripe:
+        description: Connect with a Stripe account
+        attributes:
+            api_key:
+                description: Your Stripe API key from https://stripe.com/login?redirect=/account/apikeys
+                required: True
+                sensitive: True
