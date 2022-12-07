@@ -1,5 +1,5 @@
 appdirs==1.4.4; python_version >= "3.8"
-authlib==1.0.1; python_version >= "3.8"
+authlib==1.2.0; python_version >= "3.8"
 certifi==2021.10.8; python_version >= "3.8" and python_full_version < "3.0.0" or python_full_version >= "3.6.0" and python_version >= "3.8"
 cffi==1.15.1; python_version >= "3.8"
 charset-normalizer==2.0.12; python_full_version >= "3.6.0" and python_version >= "3.8"
