@@ -15,7 +15,7 @@ github3.py==3.2.0; python_version >= "3.8"
 greenlet==1.1.2; python_version >= "3.8" and python_full_version < "3.0.0" and (platform_machine == "aarch64" or platform_machine == "ppc64le" or platform_machine == "x86_64" or platform_machine == "amd64" or platform_machine == "AMD64" or platform_machine == "win32" or platform_machine == "WIN32") and (python_version >= "3.8" and python_full_version < "3.0.0" or python_full_version >= "3.6.0" and python_version >= "3.8") or python_full_version >= "3.5.0" and python_version >= "3.8" and (platform_machine == "aarch64" or platform_machine == "ppc64le" or platform_machine == "x86_64" or platform_machine == "amd64" or platform_machine == "AMD64" or platform_machine == "win32" or platform_machine == "WIN32") and (python_version >= "3.8" and python_full_version < "3.0.0" or python_full_version >= "3.6.0" and python_version >= "3.8")
 gvgen==1.0; python_version >= "3.8"
 idna==3.3; python_version >= "3.8" and python_full_version < "3.0.0" or python_full_version >= "3.6.0" and python_version >= "3.8"
-importlib-metadata==4.12.0; python_version >= "3.8"
+importlib-metadata==5.2.0; python_version >= "3.8"
 jeepney==0.8.0; sys_platform == "linux" and python_version >= "3.8"
 jinja2==2.11.3; python_version >= "3.8" and python_full_version < "3.0.0" or python_full_version >= "3.5.0" and python_version >= "3.8"
 keyring==23.0.1; python_version >= "3.8"
